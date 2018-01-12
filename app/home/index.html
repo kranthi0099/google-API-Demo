@@ -1,0 +1,15 @@
+<h1>Hi {{ vm.user.firstName }}!!</h1>
+
+<h2>Google Maps API demo</h2>
+
+
+<h3>Enter a location:</h3>
+<input type="text" gm-places-autocomplete ng-model="autocomplete" style="width: 300px;" />
+
+<h3>Results:</h3>
+<ul>
+    <li>Lat: {{ lat }}</li>
+    <li>Lng: {{ lng }}</li>
+    <li>place: {{address}}</li>
+    <li>ID: {{placeID}}</li>
+</ul>
